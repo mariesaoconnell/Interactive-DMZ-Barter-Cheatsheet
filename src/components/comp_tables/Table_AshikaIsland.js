@@ -72,7 +72,7 @@ function Table_AshikaIsland(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='p-5'>Gold Fish</td>
+					<td id="gold-fish" className='p-5'>Gold Fish</td>
 					<td>
 						<p>1 x Ashika Kitsune Original</p>
 						<p>1 x Dog Bank</p>

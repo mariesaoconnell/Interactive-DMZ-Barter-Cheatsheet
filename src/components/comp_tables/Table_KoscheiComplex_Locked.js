@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-function Table_KoscheiComplex_Locked(props) {
+function Table_KoscheiComplex_Locked({setKey}) {
   return (
 		<Table hover>
 			<tbody>
@@ -15,9 +15,23 @@ function Table_KoscheiComplex_Locked(props) {
 						Valuable Gunscreen
 					</td>
 					<td>
-						<p>1 x Gold Fish</p>
-						<p>1 x Bunker 11 Keycard</p>
-						<p>1 x Console Devkit</p>
+						<p>
+							1 x{' '}
+							<a href='#gold-fish' onClick={() => setKey('ashika_island')}>
+								Gold Fish
+							</a>
+						</p>
+						<p>
+							1 x{' '}
+							<a
+								href='#bunker-11-keycard'
+								onClick={() => setKey('building_21')}>
+								Bunker 11 Keycard
+							</a>
+						</p>
+						<p>
+							1 x <a href='#console-devkit' onClick={()=>setKey('al_mazrah')}>Console Devkit</a>
+						</p>
 					</td>
 				</tr>
 				<tr>

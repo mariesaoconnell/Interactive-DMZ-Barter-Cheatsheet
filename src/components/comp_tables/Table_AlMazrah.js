@@ -75,7 +75,7 @@ function Table_AlMazrah(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='p-5'>Console Devkit</td>
+					<td className='p-5' id='console-devkit'>Console Devkit</td>
 					<td>
 						<p>3 x Game Console</p>
 						<p>1 x Gold Skull of Al Bagra</p>
