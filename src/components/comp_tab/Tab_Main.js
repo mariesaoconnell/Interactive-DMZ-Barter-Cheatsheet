@@ -62,7 +62,7 @@ function Tab_Main() {
 				style={{ backgroundColor: 'rgba(255, 255, 255, .6)'}}
         >
 				<Container>
-					<Table_KoscheiComplex_Locked />
+					<Table_KoscheiComplex_Locked setKey={setKey}/>
 				</Container>
 			</Tab>
 		</Tabs>
