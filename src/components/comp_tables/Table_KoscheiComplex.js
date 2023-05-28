@@ -3,36 +3,38 @@ import { Table } from 'react-bootstrap';
 
 function table_KoscheiComplex(props) {
   return (
-		<Table>
+		<Table hover>
 			<tbody>
 				<tr>
 					<th colSpan={2} className='py-4'>
-						Vests
+						Plate Vests
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>3 Plate Comms Vest</td>
+					<td className='p-5' style={{ width: '45%' }}>
+						3 Plate Comms Vest
+					</td>
 					<td>
 						<p>1 x Server Tape - Orange</p>
 						<p>1 x Formaldehyde</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>3 Plate Medic Vest</td>
+					<td className='p-5'>3 Plate Medic Vest</td>
 					<td>
 						<p>1 x Tattered Lab Notes</p>
 						<p>2 x Delta Board</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>3 Plate Stealth Vest</td>
+					<td className='p-5'>3 Plate Stealth Vest</td>
 					<td>
 						<p>1 x Chlorine</p>
 						<p>1 x Server Tape - Black</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Tempered Plate Carrier</td>
+					<td className='p-5'>Tempered Plate Carrier</td>
 					<td>
 						<p>1 x Acetic Acid</p>
 					</td>
@@ -43,14 +45,14 @@ function table_KoscheiComplex(props) {
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Scavenger Backpack</td>
+					<td className='p-5'>Scavenger Backpack</td>
 					<td>
 						<p>2 x Server Tape - Black</p>
 						<p>2 x Canned Goods</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Secure Backpack</td>
+					<td className='p-5'>Secure Backpack</td>
 					<td>
 						<p>2 x Delta Board</p>
 						<p>1 x Gold Bar</p>
@@ -62,7 +64,7 @@ function table_KoscheiComplex(props) {
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Skeleton Key</td>
+					<td className='p-5'>Skeleton Key</td>
 					<td>
 						<p>1 x Alpha Board</p>
 						<p>1 x Server Tape - Silver</p>
@@ -70,7 +72,7 @@ function table_KoscheiComplex(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>L2 Restricted Zone Key</td>
+					<td className='p-5'>L2 Restricted Zone Key</td>
 					<td>
 						<p>4 x Wrench</p>
 						<p>2 x Scientist's Notes</p>

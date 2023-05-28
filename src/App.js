@@ -5,7 +5,7 @@ import Tab_Main from "./components/comp_tab/Tab_Main";
 
 function App() {
   return (
-    <Container>
+    <Container className="d-flex flex-column justify-content-center">
       <Header />
       <Tab_Main />
 

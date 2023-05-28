@@ -1,11 +1,15 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import '../styles/header.css'
+import logo from '../images/DMZ.png'
+import { Ratio } from 'react-bootstrap';
 
 function Header(props) {
   return (
-    <Container className='text-center m-5' fluid>
-      <h1>Welcome to the DMZ</h1>
-    </Container>
+    <div className='align-self-center' style={{width: 600, height: 'auto'}}>
+      <Ratio aspectRatio='16x9'>
+        <img src={logo} alt='logo'/>
+      </Ratio>
+    </div>
   );
 }
 

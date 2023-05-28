@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 
 function Table_KoscheiComplex_Locked(props) {
   return (
-		<Table>
+		<Table hover>
 			<tbody>
 				<tr>
 					<th colSpan={2} className='py-4'>
@@ -11,7 +11,9 @@ function Table_KoscheiComplex_Locked(props) {
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Valuable Gunscreen</td>
+					<td className='p-5' style={{ width: '45%' }}>
+						Valuable Gunscreen
+					</td>
 					<td>
 						<p>1 x Gold Fish</p>
 						<p>1 x Bunker 11 Keycard</p>
@@ -19,7 +21,7 @@ function Table_KoscheiComplex_Locked(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Cash Bag</td>
+					<td className='p-5'>Cash Bag</td>
 					<td>
 						<p>1 x Employee Handbook</p>
 						<p>1 x Server Tape - Silver</p>
@@ -28,7 +30,7 @@ function Table_KoscheiComplex_Locked(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Reigning Glory</td>
+					<td className='p-5'>Reigning Glory</td>
 					<td>
 						<p>1 x Scientist's Notes</p>
 						<p>1 x Server Taper - Red</p>
@@ -37,13 +39,13 @@ function Table_KoscheiComplex_Locked(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Crossbow</td>
+					<td className='p-5'>Crossbow</td>
 					<td>
 						<p>1 x Server Tape - Red</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>RGL - 80</td>
+					<td className='p-5'>RGL - 80</td>
 					<td>
 						<p>1 x Lab Code Book</p>
 						<p>2 x Sulfuric Acid</p>
@@ -51,41 +53,41 @@ function Table_KoscheiComplex_Locked(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Riot Shield</td>
+					<td className='p-5'>Riot Shield</td>
 					<td>
 						<p>1 x Liquid Nitrogen</p>
 						<p>2 x Delta Board</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>FTAC Recon</td>
+					<td className='p-5'>FTAC Recon</td>
 					<td>
 						<p>2 x Alpha Board</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Dual Kodachis</td>
+					<td className='p-5'>Dual Kodachis</td>
 					<td>
 						<p>2 x Toy Knife</p>
 						<p>2 x Gun Cleaning Oil</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Cluster Mine</td>
+					<td className='p-5'>Cluster Mine</td>
 					<td>
 						<p>1 x Claymore</p>
 						<p>1 x Proximity Mine</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Bomb Drone</td>
+					<td className='p-5'>Bomb Drone</td>
 					<td>
 						<p>1 x Recon Drone</p>
 						<p>1 x C4</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Advanced UAV</td>
+					<td className='p-5'>Advanced UAV</td>
 					<td>
 						<p>1 x Portable Radar</p>
 						<p>2 x Electrical Components</p>

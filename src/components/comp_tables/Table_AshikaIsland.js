@@ -7,11 +7,13 @@ function Table_AshikaIsland(props) {
 			<tbody>
 				<tr>
 					<th colSpan={2} className='py-4'>
-						Vests
+						Plate Vests
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Tempered Plate Carrier</td>
+					<td className='p-5' style={{ width: '45%' }}>
+						Tempered Plate Carrier
+					</td>
 					<td>
 						<p>1 x Classified Documents</p>
 						<p>1 x Sensitive Documents</p>
@@ -24,7 +26,7 @@ function Table_AshikaIsland(props) {
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Skeleton Key</td>
+					<td className='p-5'>Skeleton Key</td>
 					<td>
 						<p>1 x Video Cassette Recorder</p>
 						<p>1 x Vintage Wine</p>
@@ -32,7 +34,7 @@ function Table_AshikaIsland(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Lost Room 403 Key</td>
+					<td className='p-5'>Lost Room 403 Key</td>
 					<td>
 						<p>4 x Nuclear Fuel</p>
 					</td>
@@ -43,20 +45,20 @@ function Table_AshikaIsland(props) {
 					</th>
 				</tr>
 				<tr>
-					<td className='py-5'>Munition Box</td>
+					<td className='p-5'>Munition Box</td>
 					<td>
 						<p>1 x Imported Tea</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Durable Gas Mask</td>
+					<td className='p-5'>Durable Gas Mask</td>
 					<td>
 						<p>2 x Tooth Paste</p>
 						<p>1 x Lighter</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>GPU</td>
+					<td className='p-5'>GPU</td>
 					<td>
 						<p>2 x Gold Bar</p>
 						<p>5 x Thumb Drive</p>
@@ -64,13 +66,13 @@ function Table_AshikaIsland(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>MCPR-300</td>
+					<td className='p-5'>MCPR-300</td>
 					<td>
 						<p>1 x Al Mazrah Train Manifest</p>
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Gold Fish</td>
+					<td className='p-5'>Gold Fish</td>
 					<td>
 						<p>1 x Ashika Kitsune Original</p>
 						<p>1 x Dog Bank</p>

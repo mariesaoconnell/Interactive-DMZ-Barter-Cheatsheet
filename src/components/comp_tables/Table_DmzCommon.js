@@ -3,16 +3,16 @@ import { Table } from 'react-bootstrap';
 
 function Table_DmzCommon(props) {
   return (
-		<Table>
+		<Table hover>
 			<tbody>
 				<tr>
-					<th colSpan={2} className='py-4'>
+					<th colSpan={2} className='py-4 table-subheading'>
 						Backpacks
 					</th>
 				</tr>
 
 				<tr>
-					<td className='py-5'>Scavenger Backpack</td>
+					<td className='p-5' style={{width: '45%'}}>Scavenger Backpack</td>
 					<td>
 						<p>1 x Battery</p>
 						<p>1 x Canned Foods</p>
@@ -20,7 +20,7 @@ function Table_DmzCommon(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Secure Backpack</td>
+					<td className='p-5'>Secure Backpack</td>
 					<td>
 						<p>1 x Electric Drill</p>
 						<p>1 x Gas Can</p>
@@ -28,7 +28,7 @@ function Table_DmzCommon(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>Secure Backpack</td>
+					<td className='p-5'>Secure Backpack</td>
 					<td>
 						<p>1 x Electric Drill</p>
 						<p>1 x Gas Can</p>
@@ -38,12 +38,12 @@ function Table_DmzCommon(props) {
 
 				<tr>
 					<th colSpan={2} className='py-4'>
-						Vests
+						Plate Vests
 					</th>
 				</tr>
 
 				<tr>
-					<td className='py-5'>3 Plate Comms Vest</td>
+					<td className='p-5'>3 Plate Comms Vest</td>
 					<td>
 						<p>2 x Hard Drive</p>
 						<p>2 x Battery</p>
@@ -51,7 +51,7 @@ function Table_DmzCommon(props) {
 					</td>
 				</tr>
 				<tr>
-					<td className='py-5'>3 Plate Medic Vest</td>
+					<td className='p-5'>3 Plate Medic Vest</td>
 					<td>
 						<p>3 x Bandage</p>
 						<p>1 x Liquor</p>
@@ -66,7 +66,7 @@ function Table_DmzCommon(props) {
 				</tr>
 
 				<tr>
-					<td className='py-5'>Armor Box</td>
+					<td className='p-5'>Armor Box</td>
 					<td>
 						<p>1 x Electrical Tape</p>
 						<p>1 x Screw Driver</p>
@@ -75,7 +75,7 @@ function Table_DmzCommon(props) {
 				</tr>
 
 				<tr>
-					<td className='py-5'>Revive Pistol</td>
+					<td className='p-5'>Revive Pistol</td>
 					<td>
 						<p>1 x Bandage</p>
 						<p>1 x Soothing Hand Cream</p>

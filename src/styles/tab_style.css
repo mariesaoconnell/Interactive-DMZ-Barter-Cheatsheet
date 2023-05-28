@@ -1,0 +1,16 @@
+
+.nav-link.active {
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  background-color: rgba(255, 255, 255) !important;
+  color: black !important;
+}
+.nav-link {
+  border: 1px solid white !important;
+  background-color: rgba(255, 255, 255, .6) !important;
+  color: black !important;
+}
+.nav-link:hover {
+  background-color: rgba(128, 128, 128, .7) !important;
+  color: white !important;
+}
