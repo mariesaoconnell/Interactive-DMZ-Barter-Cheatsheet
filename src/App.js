@@ -5,11 +5,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container className="d-flex flex-column justify-content-center">
-      <Header />
-      <Tab_Main />
+    <>
+      <Container className="d-flex flex-column justify-content-center">
+        <Header />
+        <Tab_Main />
+      </Container>
       <Footer />
-    </Container>
+    </>
   );
 }
 
